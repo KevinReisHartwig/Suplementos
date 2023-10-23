@@ -40,7 +40,7 @@ header div{
     border-radius: 50%;
     display: flex;   /* deixar mais centralizado as cores */
     padding: 4px;
-
+    animation: fromTop .7s .2s backwards;
     transform: transform .3s;
 }
 
@@ -119,10 +119,7 @@ section ul li:hover{
 
 /*animation*/
 
-header div{
-    animation: fromTop .7s .2s backwards;
-    
-}
+
 
 main section{
     animation: fromBottom .7s backwards;
